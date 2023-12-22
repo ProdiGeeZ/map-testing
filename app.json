@@ -21,10 +21,30 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAk0y3nvsaLzAGQWoxtnpVkMpp2WWIlHGo"
+        }
+      },
+      "package": "com.prodz.demoapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "@rnmapbox/maps",
+        {
+          "RNMapboxMapsVersion": "11.0.0",
+          "RNMapboxMapsDownloadToken": "sk.eyJ1IjoicHJvZGR5YmFieSIsImEiOiJjbHFmY3d5ODYwdnN4MmlubXVxdmp4dndlIn0.5Tv505tvD-VQwdhR2MBGzA"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "1724cedf-7fd4-444b-b38f-7699d6b68a2a"
+      }
     }
   }
 }

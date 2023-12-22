@@ -1,0 +1,12 @@
+import React from 'react';
+import MapBoxDemo from '../components/MapBoxDemo.js';
+
+function ReactMapScreen({ navigation }) {
+    return (
+        <>
+            <MapBoxDemo />
+        </>
+    );
+}
+
+export default ReactMapScreen;
